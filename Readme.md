@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Никита Беспамятных](https://up.htmlacademy.ru/adaptive/17/user/887261).
-* Наставник:  Алина Шаймиева.
+* Наставник:  [Алина Шаймиева] (https://htmlacademy.ru/profile/id74223).
 
 ---
 
