@@ -19,8 +19,51 @@
 .page-main__top-image {
   margin-top: 30px;
   align-self: center;
+  margin: auto;
 }
 
 .page-main__programm-button {
   margin: 0 20px;
+}
+
+/////////// TABLET VERSION
+
+@media (min-width: @tablet-width) {
+  .page-main__top-background {
+    background: none;
+  }
+
+  .page-main__title {
+    color: #111111;
+    text-align: left;
+  }
+
+  .page-main__subtitle {
+    color: #111111;
+    text-align: left;
+  }
+
+
+  .page-main__top-image-tablet {
+    order: 3;
+  }
+}
+
+////////// DESKTOP
+
+@media (min-width: @desktop-width) {
+  .page-main__top-background {
+    background-image: url("../img/index-background-desktop@1x.jpg"),
+    linear-gradient(to left, #63a73a 720px, #ffffff 720px);
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+
+  .page-main__programm-button {
+    width: 245px;
+  }
+
+  .page-main__programm-list {
+    display: flex;
+  }
 }
