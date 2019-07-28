@@ -13,14 +13,36 @@
   line-height: 20px;
   color: #111111;
   text-transform: uppercase;
+}
 
-  margin-left: 160px;
-  margin-bottom: 20px;
+.catalog-item__wrapper {
+  display: flex;
 }
 
 .catalog-item__table {
-  margin-left: 160px;
-  margin-bottom: 25px;
+  font-size: 12px;
+}
+
+.catalog-item__more-title {
+  text-align: center;
+}
+
+.catalog-item__more-subtitle {
+  margin: 0;
+  padding: 0;
 
   font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+
+  margin-bottom: 20px;
+}
+
+
+@media (min-width: @tablet-width) {
+  .catalog-item__wrapper {
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
