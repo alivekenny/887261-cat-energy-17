@@ -1,35 +1,32 @@
+.page-catalog {
+  flex-direction: column;
+}
+
 .page-catalog__title {
-  margin: 30px 20px 35px 20px;
+  margin: 60px 0;
 }
 
 .page-catalog__list {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-right: -60px;
 }
 
 .page-catalog__list-item {
   padding: 20px;
 }
 
+///////// TABLET
+
 @media (min-width: @tablet-width) {
   .page-catalog__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .page-catalog__list-item {
-    background-color: @white-two;
     margin-bottom: 30px;
-  }
-
-  .catalog-item__button {
-    min-width: 250px;
-  }
-
-  .page-catalog__more {
-    background-color: #ffffff;
-    border: 1px solid @white-two;
   }
 }
