@@ -8,10 +8,10 @@
 </head>
 
 <body>
-  <header class="page-header">
+  <header class="page-header page__container">
     <div class="page-header__wrapper">
-      <img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="191" height="39" alt="Логотип Cat Energy">
-      <img class="page-header__logo-desktop" src="img/logo-desktop.svg" width="174" height="59" alt="Логотип Cat Energy">
+      <a class="page-header__logo-link" href="index.html"><img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="191" height="39" alt="Логотип Cat Energy"></a>
+      <a class="page-header__logo-link" href="index.html"><img class="page-header__logo-desktop" src="img/logo-desktop.svg" width="174" height="59" alt="Логотип Cat Energy"></a>
       <h1 class="page-header__title visually-hidden">Cat Energy</h1>
       <button class="page-header__menu-toggle" type="button">Меню</button>
     </div>
@@ -24,15 +24,18 @@
     </nav>
   </header>
   <main class="page-main">
-    <div class="page-main__top-background">
-      <h2 class="page-main__title page__title">Функциональное питание для котов</h2>
-      <p class="page-main__subtitle page__subtitle">Занялся собой? Займись котом!</p>
-      <img class="page-main__top-image page-main__top-image-mobile" src="img/index-can-mobile@1x.png" width="280" height="270" alt="Банка Cat Energy">
-      <img class="page-main__top-image page-main__top-image-tablet" src="img/index-can-tablet@1x.jpg" width="709" height="609" alt="Банка Cat Energy">
-      <img class="page-main__top-image page-main__top-image-desktop" src="img/index-can-desktop@1x.png" width="552" height="499" alt="Банка Cat Energy">
-      <a class="page-main__programm-button button__button" href="programm.html">Подобрать программу</a>
+    <div class="page-main__top-block">
+      <div class="page-main__top-background"></div>
+      <div class="page-main__top-block-content page__container">
+        <h2 class="page-main__title page__title">Функциональное питание для котов</h2>
+        <p class="page-main__subtitle page__subtitle">Занялся собой? Займись котом!</p>
+        <img class="page-main__top-image page-main__top-image-mobile" src="img/index-can-mobile@1x.png" width="280" height="270" alt="Банка Cat Energy">
+        <img class="page-main__top-image page-main__top-image-tablet" src="img/index-can-tablet@1x.jpg" width="709" height="609" alt="Банка Cat Energy">
+        <img class="page-main__top-image page-main__top-image-desktop" src="img/index-can-desktop@1x.png" width="552" height="499" alt="Банка Cat Energy">
+        <a class="page-main__programm-button button__button" href="programm.html">Подобрать программу</a>
+      </div>
     </div>
-    <div class="page-main__programm-list">
+    <div class="page-main__programm-list page__container">
       <section class="programm">
         <h3 class="programm__title">Похудение</h3>
         <p class="programm__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
@@ -44,8 +47,8 @@
         <a class="programm__link">Каталог Pro</a>
       </section>
     </div>
-    <section class="advantages">
-      <h3 class="advantages__title">Как это работает</h3>
+    <section class="advantages page__container">
+      <h3 class="advantages__title page__title">Как это работает</h3>
       <ul class="advantages__list">
         <li class="advantages__list-item advantages__list-item-leaf">Функциональное питание содержит только полезныепитательные вещества.</li>
         <li class="advantages__list-item advantages__list-item-powder">Выпускается в виде порошка, который нужно лишьзалить кипятком и готово.</li>
@@ -55,13 +58,15 @@
     </section>
   </main>
   <footer class="page-footer">
-    <img class="page-footer__logo" src="img/logo-footer.svg" width="128px" height="24px">
-    <ul class="page-footer__social">
-      <li class="page-footer__social-item"><a href="#">В Контакте</a></li>
-      <li class="page-footer__social-item"><a href="#">Инстаграм</a></li>
-      <li class="page-footer__social-item"><a href="#">Фейсбук</a></li>
-    </ul>
-    <p class="page-footer__copyright">HTML Academy</p>
+    <div class="page-footer__content page__container">
+      <img class="page-footer__logo" src="img/logo-footer.svg" width="128px" height="24px">
+      <ul class="page-footer__social">
+        <li class="page-footer__social-item"><a href="#">В Контакте</a></li>
+        <li class="page-footer__social-item"><a href="#">Инстаграм</a></li>
+        <li class="page-footer__social-item"><a href="#">Фейсбук</a></li>
+      </ul>
+      <p class="page-footer__copyright">HTML Academy</p>
+    </div>
   </footer>
 </body>
 
