@@ -1,14 +1,20 @@
-@import "page.less";
-@import "page-header.less";
-@import "page-main.less";
-@import "button.less";
-@import "programm.less";
-@import "advantages.less";
-@import "page-footer.less";
+@import "blocks/page.less";
 @import "normalize.less";
-@import "page-catalog.less";
-@import "catalog-item.less";
-@import "show-more.less";
+@import "blocks/page-header.less";
+@import "blocks/page-main.less";
+@import "blocks/button.less";
+@import "blocks/programm.less";
+@import "blocks/advantages.less";
+@import "blocks/page-footer.less";
+@import "blocks/page-catalog.less";
+@import "blocks/catalog-item.less";
+@import "blocks/show-more.less";
+
+@leaf: #68b738;
+@white-two: #f2f2f2;
+@mobile-width: 320px;
+@tablet-width: 768px;
+@desktop-width: 1300px;
 
 @font-face {
   font-family: "Oswald";
@@ -26,13 +32,9 @@
   font-style: normal;
 }
 
-@leaf: #68b738;
-@white-two: #f2f2f2;
-
 body {
   font-family: "Arial", "Helvetica", sans-serif;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -40,4 +42,8 @@ body {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+* {
+  // outline: 1px solid red;
 }

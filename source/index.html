@@ -8,12 +8,15 @@
 </head>
 
 <body>
-  <header class="page-header">
-    <img class="page-header__logo" src="img/logo-mobile.svg" width="191" height="39" alt="Логотип Cat Energy">
-    <h1 class="page-header__title visually-hidden">Cat Energy</h1>
-    <nav class="page-header__menu">
+  <header class="page-header page__container">
+    <div class="page-header__wrapper">
+      <a class="page-header__logo-link" href="index.html"><img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="191" height="39" alt="Логотип Cat Energy"></a>
+      <a class="page-header__logo-link" href="index.html"><img class="page-header__logo-desktop" src="img/logo-desktop.svg" width="174" height="59" alt="Логотип Cat Energy"></a>
+      <h1 class="page-header__title visually-hidden">Cat Energy</h1>
       <button class="page-header__menu-toggle" type="button">Меню</button>
-      <ul class="page-header__menu-list visually-hidden">
+    </div>
+    <nav class="page-header__menu">
+      <ul class="page-header__menu-list">
         <li class="page-header__menu-list-item page-header__menu-list-item--active"><a>Главная</a></li>
         <li class="page-header__menu-list-item"><a href="catalog.html">Каталог продукции</a></li>
         <li class="page-header__menu-list-item"><a href="programm.html">Подбор программы</a></li>
@@ -21,47 +24,49 @@
     </nav>
   </header>
   <main class="page-main">
-    <div class="page-main__top-background">
-      <h2 class="page-main__title page__title">Функциональное питание для котов</h2>
-      <p class="page-main__subtitle page__subtitle">Занялся собой? Займись котом!</p>
-      <img class="page-main__top-image" src="img/index-can-mobile@1x.png" width="280" height="270"
-        alt="Банка Cat Energy">
+    <div class="page-main__top-block">
+      <div class="page-main__top-background"></div>
+      <div class="page-main__top-block-content page__container">
+        <h2 class="page-main__title page__title">Функциональное питание для котов</h2>
+        <p class="page-main__subtitle page__subtitle">Занялся собой? Займись котом!</p>
+        <img class="page-main__top-image page-main__top-image-mobile" src="img/index-can-mobile@1x.png" width="280" height="270" alt="Банка Cat Energy">
+        <img class="page-main__top-image page-main__top-image-tablet" src="img/index-can-tablet@1x.jpg" width="709" height="609" alt="Банка Cat Energy">
+        <img class="page-main__top-image page-main__top-image-desktop" src="img/index-can-desktop@1x.png" width="552" height="499" alt="Банка Cat Energy">
+        <a class="page-main__programm-button button__button" href="programm.html">Подобрать программу</a>
+      </div>
     </div>
-    <a class="page-main__programm-button button__button" href="programm.html">Подобрать программу</a>
-    <section class="programm">
-      <h3 class="programm__title">Похудение</h3>
-      <p class="programm__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора
-        на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-      <a class="programm__link">Каталог Slim</a>
-    </section>
-    <section class="programm">
-      <h3 class="programm__title">Набор массы</h3>
-      <p class="programm__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro
-        поможет вашему коту нарастить необходимые мышцы!</p>
-      <a class="programm__link">Каталог Pro</a>
-    </section>
-    <section class="advantages">
-      <h3 class="advantages__title">Как это работает</h3>
+    <div class="page-main__programm-list page__container">
+      <section class="programm">
+        <h3 class="programm__title">Похудение</h3>
+        <p class="programm__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+        <a class="programm__link">Каталог Slim</a>
+      </section>
+      <section class="programm">
+        <h3 class="programm__title">Набор массы</h3>
+        <p class="programm__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+        <a class="programm__link">Каталог Pro</a>
+      </section>
+    </div>
+    <section class="advantages page__container">
+      <h3 class="advantages__title page__title">Как это работает</h3>
       <ul class="advantages__list">
-        <li class="advantages__list-item advantages__list-item-leaf">Функциональное питание содержит только полезные
-          питательные вещества.</li>
-        <li class="advantages__list-item advantages__list-item-powder">Выпускается в виде порошка, который нужно лишь
-          залить кипятком и готово.</li>
-        <li class="advantages__list-item advantages__list-item-dining">Замените один-два приема обычной еды на наше
-          функциональное питание.</li>
-        <li class="advantages__list-item advantages__list-item-clock">Уже через месяц наслаждайтесь изменениями к
-          лучшему вашего питомца!</li>
+        <li class="advantages__list-item advantages__list-item-leaf">Функциональное питание содержит только полезныепитательные вещества.</li>
+        <li class="advantages__list-item advantages__list-item-powder">Выпускается в виде порошка, который нужно лишьзалить кипятком и готово.</li>
+        <li class="advantages__list-item advantages__list-item-dining">Замените один-два приема обычной еды на нашефункциональное питание.</li>
+        <li class="advantages__list-item advantages__list-item-clock">Уже через месяц наслаждайтесь изменениями клучшему вашего питомца!</li>
       </ul>
     </section>
   </main>
   <footer class="page-footer">
-    <img class="page-footer__logo" src="img/logo-footer.svg" width="128px" height="24px">
-    <ul class="page-footer__social">
-      <li class="page-footer__social-item"><a href="#">В Контакте</a></li>
-      <li class="page-footer__social-item"><a href="#">Инстаграм</a></li>
-      <li class="page-footer__social-item"><a href="#">Фейсбук</a></li>
-    </ul>
-    <p class="page-footer__copyright">HTML Academy</p>
+    <div class="page-footer__content page__container">
+      <img class="page-footer__logo" src="img/logo-footer.svg" width="128" height="24" alt="Логотип Cat Energy">
+      <ul class="page-footer__social">
+        <li class="page-footer__social-item"><a href="#">В Контакте</a></li>
+        <li class="page-footer__social-item"><a href="#">Инстаграм</a></li>
+        <li class="page-footer__social-item"><a href="#">Фейсбук</a></li>
+      </ul>
+      <p class="page-footer__copyright">HTML Academy</p>
+    </div>
   </footer>
 </body>
 

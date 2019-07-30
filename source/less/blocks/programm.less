@@ -1,7 +1,7 @@
 .programm {
   background-color: @white-two;
   padding: 24px 36px 22px 20px;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .programm__title {
@@ -14,6 +14,9 @@
 }
 
 .programm__description {
+  margin: 0;
+  padding: 0;
+
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -25,4 +28,44 @@
   line-height: 16px;
   color: #111111;
   text-transform: uppercase;
+}
+
+///////// TABLET
+
+@media (min-width: @tablet-width) {
+  .programm {
+    padding: 80px 285px 60px 55px;
+  }
+
+  .programm__title {
+    font-size: 36px;
+    line-height: 36px;
+    color: #111111;
+    margin-bottom: 25px;
+    font-weight: normal;
+  }
+
+  .programm__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    margin-bottom: 60px;
+  }
+
+  .programm__link {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+///////// DESKTOP
+
+@media (min-width: @desktop-width) {
+  .programm {
+    padding: 80px 75px 60px 50px;
+  }
+
+  .programm__description {
+    margin-bottom: 40px;
+  }
 }
